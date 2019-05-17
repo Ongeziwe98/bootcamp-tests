@@ -20,5 +20,4 @@ function totalPhoneBill(list){
    console.log(total)
  return (total);
  }
-  var list = "call, sms, call, sms, sms"       
- var totalAmount = 
+  

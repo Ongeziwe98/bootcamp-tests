@@ -1,13 +1,13 @@
 describe('fromWhere' , function(){
-    it('returns the town that the car is from.' , function(){
+    it('should return the town(Bellville) that the car is from.' , function(){
        
         assert.deepEqual(fromWhere('CY'),"Bellville");
     });
-    it('returns the town that the car is from.' , function(){
+    it('should return the town(Paarl) that the car is from.' , function(){
        
         assert.deepEqual(fromWhere('CJ'),"Paarl");
     });
-    it('returns the town that the car is from.' , function(){
+    it('should return the town(Cape Town) that the car is from.' , function(){
        
         assert.deepEqual(fromWhere('CA'),"Cape Town");
     });

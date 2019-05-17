@@ -4,6 +4,10 @@ describe('countRegNumber' , function(){
         assert.equal(countRegNumber(Reg), 3);
         
     });
-    
+    it('should return 0 if the are no registration numbers' , function(){
+       
+        assert.equal(countRegNumber(""), 1);
+        
+    });
    
 });

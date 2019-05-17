@@ -5,7 +5,7 @@ describe('isFromBellville' , function(){
         
     });
     
-    it('otherwise return false ' , function(){
+    it('should return false if it is not Bellville ' , function(){
        
         assert.equal(isFromBellville('CJ'),false);
         

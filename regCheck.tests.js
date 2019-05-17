@@ -3,7 +3,7 @@ describe('regCheck' , function(){
         assert.deepEqual(regCheck('DV 23 NB GP', 'GP'),true);
     });
 
-    it('otherwise return false' , function(){
+    it('should return false if its other registration' , function(){
         assert.deepEqual(regCheck('DV 23 LP GP', 'MP'),false);
     });
 

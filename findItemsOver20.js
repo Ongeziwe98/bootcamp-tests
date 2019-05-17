@@ -13,3 +13,7 @@ function findItemsOver20(param1){
   return items;
   }
   
+var results = [
+  {name : 'pears', qty : 37},
+  {name : 'bananas', qty : 27},
+];
